@@ -58,6 +58,9 @@
 
 (require 'kaomel-data)
 
+(declare-function helm "ext:helm.el")
+(declare-function helm-build-sync-source "ext:helm.el")
+
 (defgroup kaomel nil
   "A snappy kaomoji picker."
   :prefix "kaomel-"
@@ -232,15 +235,11 @@ If nil, no limit is applied (show all candidates)."
 
 (defun kaomel--get-through-helm ()
   "Prompt the user to select a kaomoji using Helm."
-  (with-no-warnings
-    ;; Warning suppressed because I perform a runtime
-    ;; check on helm. This internal function should be
-    ;; called only if helm exists.
-    (helm :sources
-          (helm-build-sync-source
-           kaomel-prompt
-           :candidates (kaomel--get-candidates)
-           :candidate-number-limit kaomel-candidate-number-limit))))
+  (helm :sources
+        (helm-build-sync-source
+         kaomel-prompt
+         :candidates (kaomel--get-candidates)
+         :candidate-number-limit kaomel-candidate-number-limit)))
 
 (provide 'kaomel)
 ;;; kaomel.el ends here

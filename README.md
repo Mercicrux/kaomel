@@ -56,7 +56,7 @@ If you use `use-package`, you can follow steps 1-3 of the manual procedure and r
 Alternatively, you can skip all the previous steps entirely and install directly from the GitHub repository with:
 
 ```elisp
-(use-package kaomel :vc (:fetcher github :repo "gicrisf/kaomel"))
+(use-package kaomel :vc (:fetcher github :repo "Mercicrux/kaomel"))
 ```
 
 This will automatically clone the repository and handle the installation for you.
@@ -65,7 +65,7 @@ This will automatically clone the repository and handle the installation for you
 
 ```emacs-lisp
 (straight-use-package
- '(kaomel :host github :repo "gicrisf/kaomel"
+ '(kaomel :host github :repo "Mericrux/kaomel"
    :files ("*.el")))
 ```
 
@@ -75,7 +75,7 @@ This will clone the repository and build the package using straight.
 For Doom Emacs users, add the following to your `packages.el` file:
 
 ```emacs-lisp
-(package! kaomel :recipe (:host github :repo "gicrisf/kaomel"))
+(package! kaomel :recipe (:host github :repo "Mercicrux/kaomel"))
 ```
 
 ## Usage

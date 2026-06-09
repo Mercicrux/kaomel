@@ -4316,5 +4316,33 @@
             "(′︿‵｡)   ",
             "( ꒪⌓꒪)   "
         ]
+    },
+    {
+        "tag": [
+            {
+                "orig": "shrug ",
+                "hira": "shrug ",
+                "kana": "shrug ",
+                "hepburn": "shrug ",
+                "kunrei": "shrug ",
+                "passport": "shrug ",
+                "en": "shrug ",
+                "it": "scrolla le spalle "
+            },
+            {
+                "orig": "肩をすくめる",
+                "hira": "",
+                "kana": "",
+                "hepburn": "",
+                "kunrei": "",
+                "passport": "",
+                "en": "肩をすくめる",
+                "it": "肩をすくめる"
+            }
+        ],
+        "yan": [
+            "¯⧵_(ツ)_/¯ ",
+            "╮(ᵕ—ᴗ—)╭ "
+        ]
     }
 ]

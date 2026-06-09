@@ -4321,23 +4321,13 @@
         "tag": [
             {
                 "orig": "shrug ",
-                "hira": "shrug ",
-                "kana": "shrug ",
+                "hira": "肩をすくめる ",
+                "kana": "肩をすくめる ",
                 "hepburn": "shrug ",
                 "kunrei": "shrug ",
                 "passport": "shrug ",
                 "en": "shrug ",
                 "it": "scrolla le spalle "
-            },
-            {
-                "orig": "肩をすくめる",
-                "hira": "",
-                "kana": "",
-                "hepburn": "",
-                "kunrei": "",
-                "passport": "",
-                "en": "肩をすくめる",
-                "it": "肩をすくめる"
             }
         ],
         "yan": [

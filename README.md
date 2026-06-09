@@ -22,7 +22,7 @@ The package `kaomel` is an Emacs package that provides easy insertion of kaomoji
 ### Install manually
 1. Clone the GitHub repository for the Emacs package using the `git clone` command:
 ```
-git clone https://github.com/gicrisf/kaomel
+git clone https://github.com/Mercicrux/kaomel
 ```
 
 2. Move the cloned package directory into your Emacs' load path, which is typically `~/.emacs.d/`:
